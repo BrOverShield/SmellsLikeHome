@@ -31,5 +31,43 @@ public class Throw : MonoBehaviour
         }
         
         if ( hasPlayer && Input.GetButtonDown("Use"))
+        {
+            GetComponent<Rigidbody>().isKinematic = true;
+            transform.parent = PlayerCam;
+            beingCarried = true;
+        }
+        
+        if(beingCarried)
+        {
+            if(touched)
+            {
+                 GetComponent<Rigidbody>().isKinematic = false;
+                transform.parent = null;
+                beingCarried = false;
+                touched = false;
+            }
+            
+            if(Input.GetMouseButtonDown(0))
+            {
+                 GetComponent<Rigidbody>().isKinematic = false;
+            transform.parent = null;
+            beingCarried = false;
+             GetComponent<Rigidbody>().AddForce(PlayerCam.forward * throwForce);
+            }
+            else if (Input.GetMouseButtonDown(1))
+            {
+            GetComponent<Rigidbody>().isKinematic = false;
+            transform.parent = null;
+            beingCarried = false;
+            }
+        }
+    }
+    
+    void OnTriggerEnter()
+    {
+    
+        if(beingCarried){
+            touched = true;
+        }
     }
 }
