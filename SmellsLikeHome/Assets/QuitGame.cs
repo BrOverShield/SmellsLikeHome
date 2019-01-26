@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quit : MonoBehaviour
+public class QuitGame : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void quit()
     {
-        
+        Debug.Log("Player has Quit!");
+        Application.Quit();
+
+
+
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
+
 }
