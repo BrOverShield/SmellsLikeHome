@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Blockout_Theme_3_Walls
   m_Shader: {fileID: 4800000, guid: 2fbbbe10715d8a34795c64c62d82623e, type: 3}
   m_ShaderKeywords: _EMISSION
@@ -55,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: d97a42fffb9c00e4b8ff2bf5df33ba66, type: 3}
+        m_Texture: {fileID: 2800000, guid: 403ab31ff043eff4ea4124a30eb5cdcc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
