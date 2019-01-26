@@ -8,9 +8,11 @@ public class Throw : MonoBehaviour
     public Transform player;
     public Transform PlayerCam;
     public float throwForce = 10;
-    bool hasPlayer = false;
+   private bool hasPlayer = false;
     bool beingCarried = false;
     private bool touched = false;
+    
+    
     
     public Material Floor;
     public Material mat2;
@@ -24,23 +26,31 @@ public class Throw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        
         float dist = Vector3.Distance(gameObject.transform.position, player.position);
-        if(dist <= 5f)
+        if(dist <= 3f)
         {
-            hasPlayer = true;
-        }
+         hasPlayer = true;
+       }
         else{
             hasPlayer = false;
-        }
+       }
         
-        if ( hasPlayer && Input.GetMouseButtonDown(0))
-        {
-            GetComponent<Rigidbody>().isKinematic = true;
+       
+        
+        if (hasPlayer && Input.GetMouseButtonDown(0))
+        {   
+            
+            
+                GetComponent<Rigidbody>().isKinematic = true;
             transform.parent = PlayerCam;
             beingCarried = true;
             GetComponent<Renderer>().material = mat2;
-           //Vector3 rotationVector = new Vector3(0, 30* Time.deltaTime, 0);
-       //this.transform.rotation = Quaternion.Euler(rotationVector);
+          
+           
+                
+            
         }
         
         if(beingCarried)
