@@ -5,7 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pie
+<<<<<<< HEAD
   - ThrowableObj
+=======
+  - Fire
+  - Door
+  - Window
+>>>>>>> 3eee7e407c17df9a02c6e34f59ccfd30a5df6dcc
   layers:
   - Default
   - TransparentFX
