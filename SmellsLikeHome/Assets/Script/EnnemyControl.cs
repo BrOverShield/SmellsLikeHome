@@ -9,6 +9,9 @@ public class EnnemyControl : MonoBehaviour
     NavMeshAgent EnnemyNavMesh;
     public DoorInteraction doorScript;
     public WindowInteraction windowScript;
+    public float speedNeighbor = 2f;
+    private bool IsDeath = false;
+    private float TimerDelete = 1f;
 
     private void Awake()
     {
@@ -33,12 +36,26 @@ public class EnnemyControl : MonoBehaviour
         {
             SetDestination();
         }
+
+        if (IsDeath)
+        {
+            speedNeighbor = 0f;
+            if (TimerDelete < 5f)
+            {
+                TimerDelete += Time.deltaTime;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
     }
     private void SetDestination()
     {
         if (PiePosition != null)
         {
             Vector3 targetVector = PiePosition.transform.position;
+            EnnemyNavMesh.speed = speedNeighbor;
             EnnemyNavMesh.SetDestination(targetVector);
         }
     }
@@ -50,9 +67,10 @@ public class EnnemyControl : MonoBehaviour
             Debug.Log("Miam!");
             Destroy(this.gameObject);
         }
-        if (other.tag == "Object") {
+        if (other.tag == "Object")
+        {
             //Die
-            
+            IsDeath = true;
         }
         if (other.tag == "Door")
         {
