@@ -5,8 +5,16 @@ using UnityEngine.AI;
 public class EnnemyControl : MonoBehaviour
 {
     [SerializeField]
-    Transform PlayerPosition;
+    Transform PiePosition;
     NavMeshAgent EnnemyNavMesh;
+    public DoorInteraction doorScript;
+    public WindowInteraction windowScript;
+
+    private void Awake()
+    {
+        PiePosition = GameObject.FindGameObjectWithTag("Pie").transform;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +36,9 @@ public class EnnemyControl : MonoBehaviour
     }
     private void SetDestination()
     {
-        if (PlayerPosition != null)
+        if (PiePosition != null)
         {
-            Vector3 targetVector = PlayerPosition.transform.position;
+            Vector3 targetVector = PiePosition.transform.position;
             EnnemyNavMesh.SetDestination(targetVector);
         }
     }
@@ -38,10 +46,25 @@ public class EnnemyControl : MonoBehaviour
     {
         if (other.tag == "Pie")
         {
-            //Lose health
+            //Pie lose health
+            Debug.Log("Miam!");
+            Destroy(this.gameObject);
         }
         if (other.tag == "Object") {
             //Die
+            
+        }
+        if (other.tag == "Door")
+        {
+            //Open door
+            doorScript = other.GetComponent<DoorInteraction>();
+            doorScript.DoorOpen = true;
+        }
+        if (other.tag == "Window")
+        {
+            //Open Window
+            windowScript = other.GetComponent<WindowInteraction>();
+            windowScript.WindowOpen = true;
         }
     }
 }
