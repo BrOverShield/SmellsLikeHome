@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5a117cf368dd7e4faa602390226be41, type: 3}
-  m_Name: BlockoutSceneSettings_Olivier
+  m_Name: BlockoutSceneSettings_New Scene
   m_EditorClassIdentifier: 
-  sceneName: Olivier
+  sceneName: New Scene
   currentTheme: 0
   currentTexture: 0
   cameraAnchor: []

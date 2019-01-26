@@ -32,19 +32,21 @@ public class Throw : MonoBehaviour
         
         if ( hasPlayer && Input.GetButtonDown("Use"))
         {
-            GetComponent<Rigidbody>().isKinematic = true;
+            GetComponent<Rigidbody>().isKinematic = false;
             transform.parent = PlayerCam;
             beingCarried = true;
+            //this.transform.rotation = new Quaternion (4, 5, 0);
         }
         
         if(beingCarried)
-        {
+        {GetComponent<Rigidbody>().angularVelocity = new Vector3 (4, 0, 0);
             if(touched)
             {
                  GetComponent<Rigidbody>().isKinematic = false;
                 transform.parent = null;
                 beingCarried = false;
                 touched = false;
+                
             }
             
             if(Input.GetMouseButtonDown(0))
