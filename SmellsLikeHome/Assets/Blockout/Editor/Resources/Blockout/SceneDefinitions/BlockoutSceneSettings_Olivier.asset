@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BlockoutSceneSettings_Olivier
   m_EditorClassIdentifier: 
   sceneName: Olivier
-  currentTheme: 0
-  currentTexture: 0
+  currentTheme: 5
+  currentTexture: 4
   cameraAnchor: []
   assetDictionary: []

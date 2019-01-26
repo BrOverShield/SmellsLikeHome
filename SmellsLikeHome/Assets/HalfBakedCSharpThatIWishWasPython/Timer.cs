@@ -5,7 +5,7 @@ using System;
 public class Timer : MonoBehaviour
 {
     private Text text;
-    private float timeleft = 300.0f;
+    private float timeleft = 10.0f;
 
     // shamelessly stolen from some forum, don't worry about it
     void Awake()
@@ -50,6 +50,8 @@ public class Timer : MonoBehaviour
         if (timeleft < 0)
         {
             print("Time's Up"); // TODO: run function to do whatever we want to happen when time is up, and yes, I know this will spam the console
+            GameObject camera = GameObject.Find("Main Camera");
+            Credits play_credits = camera.AddComponent<Credits>();
         }
         else
         {
