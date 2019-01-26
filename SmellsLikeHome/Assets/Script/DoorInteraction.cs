@@ -18,26 +18,30 @@ public class DoorInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (DoorOpen) {
+        if (DoorOpen)
+        {
             if (rotationTimer < 5f)
             {
-                rotationTimer += 1f * Time.deltaTime;
+                rotationTimer += Time.deltaTime;
             }
-            else {
+            else
+            {
                 if (rotationTimer < 7.5f)
                 {
                     transform.Rotate(rotationDoor);
-                    rotationTimer += 1f * Time.deltaTime;
+                    rotationTimer += Time.deltaTime;
                 }
-                else {
-                    transform.Rotate(new Vector3(0,0,0));
+                else
+                {
+                    transform.Rotate(new Vector3(0, 0, 0));
                 }
-                
+
             }
         }
     }
 
-    private IEnumerator DoorOpenDelay(float waitTime) {
+    private IEnumerator DoorOpenDelay(float waitTime)
+    {
         yield return new WaitForSeconds(waitTime);
 
     }
