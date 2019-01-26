@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pie
+  - Fire
+  - Door
+  - Window
   layers:
   - Default
   - TransparentFX
