@@ -34,4 +34,14 @@ public class EnnemyControl : MonoBehaviour
             EnnemyNavMesh.SetDestination(targetVector);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Pie")
+        {
+            //Lose health
+        }
+        if (other.tag == "Object") {
+            //Die
+        }
+    }
 }
