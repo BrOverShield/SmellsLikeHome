@@ -413,6 +413,9 @@ MonoBehaviour:
   speed: 5
   sensitivity: -5
   Camera: {fileID: 847515014}
+  gravity: 10
+  rotatespeed: 3
+  mD: {x: 0, y: 0}
 --- !u!1 &1014571033
 GameObject:
   m_ObjectHideFlags: 0

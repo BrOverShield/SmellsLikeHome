@@ -29,7 +29,7 @@ public class Throw : MonoBehaviour
         
         
         float dist = Vector3.Distance(gameObject.transform.position, player.position);
-        if(dist <= 3f)
+        if(dist <= 4f)
         {
          hasPlayer = true;
        }
