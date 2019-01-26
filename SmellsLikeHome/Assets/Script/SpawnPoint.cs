@@ -5,11 +5,11 @@ using UnityEngine;
 public class SpawnPoint : MonoBehaviour
 {
     public GameObject prefab;
-    public float repeatTime = 100f;
+    public float repeatTime = 15f;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Spawn", 5f, 10f);
+        InvokeRepeating("Spawn", 5f, 15f);
     }
 
     // Update is called once per frame
