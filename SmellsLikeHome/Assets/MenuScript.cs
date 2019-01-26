@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MenuScript : MonoBehaviour
 {
    
     public void ChangeScene(string SceneName)
     {
 
-        SceneManager.LoadScene("MaisonPlayerV1", LoadSceneMode.Additive);
+        SceneManager.LoadScene("MaisonPlayerV1", LoadSceneMode.Single);
       
     }
 
