@@ -7,7 +7,7 @@ public class test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(transform.rotation);
+        Debug.Log(transform.localEulerAngles);
     }
 
     // Update is called once per frame
