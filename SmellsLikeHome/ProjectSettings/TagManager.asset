@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pie
-  - Fire
   - Door
   - Window
+  - Object
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 
