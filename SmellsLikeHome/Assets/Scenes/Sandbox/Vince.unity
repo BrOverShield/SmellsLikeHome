@@ -446,6 +446,16 @@ PrefabInstance:
       propertyPath: PlayerCam
       value: 
       objectReference: {fileID: 1140143039}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: Floor
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e04b2ad7841f4499e8bd83e253bbfb, type: 2}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: mat2
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f4480dae2426a34f989ea428958e317, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0a9a1ff58e7c74da56477556cf27c5, type: 3}
 --- !u!4 &1140143039 stripped
@@ -531,6 +541,16 @@ PrefabInstance:
       propertyPath: PlayerCam
       value: 
       objectReference: {fileID: 1140143039}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: Floor
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e04b2ad7841f4499e8bd83e253bbfb, type: 2}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: mat2
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f4480dae2426a34f989ea428958e317, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0a9a1ff58e7c74da56477556cf27c5, type: 3}
 --- !u!1 &1728296269
@@ -767,6 +787,16 @@ PrefabInstance:
       propertyPath: PlayerCam
       value: 
       objectReference: {fileID: 1140143039}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: Floor
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e04b2ad7841f4499e8bd83e253bbfb, type: 2}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: mat2
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f4480dae2426a34f989ea428958e317, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0a9a1ff58e7c74da56477556cf27c5, type: 3}
 --- !u!1 &1827000394
@@ -945,7 +975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849648434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.27, z: 2.2}
+  m_LocalPosition: {x: 0, y: -1.69, z: 2.2}
   m_LocalScale: {x: 27.41, y: -0.16, z: 33.84}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1085,5 +1115,15 @@ PrefabInstance:
       propertyPath: PlayerCam
       value: 
       objectReference: {fileID: 1140143039}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: Floor
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e04b2ad7841f4499e8bd83e253bbfb, type: 2}
+    - target: {fileID: 322006380509895528, guid: 7c0a9a1ff58e7c74da56477556cf27c5,
+        type: 3}
+      propertyPath: mat2
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f4480dae2426a34f989ea428958e317, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0a9a1ff58e7c74da56477556cf27c5, type: 3}

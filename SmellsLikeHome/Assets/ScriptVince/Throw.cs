@@ -12,17 +12,20 @@ public class Throw : MonoBehaviour
     bool beingCarried = false;
     private bool touched = false;
     
+    public Material Floor;
+    public Material mat2;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+         GetComponent<Renderer>().material = Floor;
     }
 
     // Update is called once per frame
     void Update()
     {
         float dist = Vector3.Distance(gameObject.transform.position, player.position);
-        if(dist <= 2.5f)
+        if(dist <= 5f)
         {
             hasPlayer = true;
         }
@@ -30,37 +33,44 @@ public class Throw : MonoBehaviour
             hasPlayer = false;
         }
         
-        if ( hasPlayer && Input.GetButtonDown("Use"))
+        if ( hasPlayer && Input.GetMouseButtonDown(0))
         {
-            GetComponent<Rigidbody>().isKinematic = false;
+            GetComponent<Rigidbody>().isKinematic = true;
             transform.parent = PlayerCam;
             beingCarried = true;
-            //this.transform.rotation = new Quaternion (4, 5, 0);
+            GetComponent<Renderer>().material = mat2;
+           //Vector3 rotationVector = new Vector3(0, 30* Time.deltaTime, 0);
+       //this.transform.rotation = Quaternion.Euler(rotationVector);
         }
         
         if(beingCarried)
-        {GetComponent<Rigidbody>().angularVelocity = new Vector3 (4, 0, 0);
+        {GetComponent<Rigidbody>().angularVelocity = new Vector3 (0, -4, 1);
+         
+         this.transform.Rotate( 0.1f, 0.05f, 0.1f);
+         
             if(touched)
             {
                  GetComponent<Rigidbody>().isKinematic = false;
                 transform.parent = null;
                 beingCarried = false;
                 touched = false;
-                
+                GetComponent<Renderer>().material = Floor;
             }
             
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButtonUp(0))
             {
                  GetComponent<Rigidbody>().isKinematic = false;
             transform.parent = null;
             beingCarried = false;
              GetComponent<Rigidbody>().AddForce(PlayerCam.forward * throwForce);
+                GetComponent<Renderer>().material = Floor;
             }
             else if (Input.GetMouseButtonDown(1))
             {
             GetComponent<Rigidbody>().isKinematic = false;
             transform.parent = null;
             beingCarried = false;
+                GetComponent<Renderer>().material = Floor;
             }
         }
     }
