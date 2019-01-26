@@ -1,36 +1,45 @@
 fileFormatVersion: 2
-guid: 1cc5fd1b02d93f746ae1823c2a4dcfc5
+guid: c28ed2a29219ceb439bd7662534bf965
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: arm_L
-    100002: arm_R
-    100004: Armature
-    100006: chest_001
-    100008: Cube
-    100010: head
-    100012: Leg_L
-    100014: leg_R
-    100016: //RootNode
-    400000: arm_L
-    400002: arm_R
-    400004: Armature
-    400006: chest_001
-    400008: Cube
-    400010: head
-    400012: Leg_L
-    400014: leg_R
-    400016: //RootNode
-    2100000: unnamed
+    100000: arm.L
+    100002: arm.L_end
+    100004: arm.R
+    100006: arm.R_end
+    100008: Armature
+    100010: chest.001
+    100012: Cube
+    100014: head
+    100016: head_end
+    100018: Leg.L
+    100020: Leg.L_end
+    100022: leg.R
+    100024: leg.R_end
+    100026: //RootNode
+    400000: arm.L
+    400002: arm.L_end
+    400004: arm.R
+    400006: arm.R_end
+    400008: Armature
+    400010: chest.001
+    400012: Cube
+    400014: head
+    400016: head_end
+    400018: Leg.L
+    400020: Leg.L_end
+    400022: leg.R
+    400024: leg.R_end
+    400026: //RootNode
+    2100000: No Name
     4300000: Cube
-    7400000: Default Take
-    7400002: Walk
-    7400004: manger
-    7400006: openwindow
-    7400008: bouffer
+    7400000: Armature|CubeAction
+    7400002: Armature|Walk
+    7400004: Armature|manger
+    7400006: Armature|openwindow
+    7400008: Armature|bouffer
     9500000: //RootNode
     13700000: Cube
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -83,7 +92,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
