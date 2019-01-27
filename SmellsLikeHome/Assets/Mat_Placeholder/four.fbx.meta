@@ -1,18 +1,82 @@
 fileFormatVersion: 2
-guid: e0ecf8650f8476648881545dd588fa34
+guid: 57d4d86940261254bb93f484ab14b58c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material_001__Glass
-    2100002: Material_001
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cylinder
-    7400000: Default Take
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cylinder.000
+    100014: Cylinder.001
+    100016: Cylinder.002
+    100018: Cylinder.003
+    100020: Cylinder.004
+    100022: Cylinder.005
+    100024: Cylinder.006
+    100026: Cylinder.007
+    100028: //RootNode
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cylinder.000
+    400014: Cylinder.001
+    400016: Cylinder.002
+    400018: Cylinder.003
+    400020: Cylinder.004
+    400022: Cylinder.005
+    400024: Cylinder.006
+    400026: Cylinder.007
+    400028: //RootNode
+    2100000: No Name
+    2100002: Material
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cylinder.000
+    2300014: Cylinder.001
+    2300016: Cylinder.002
+    2300018: Cylinder.003
+    2300020: Cylinder.004
+    2300022: Cylinder.005
+    2300024: Cylinder.006
+    2300026: Cylinder.007
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cylinder.000
+    3300014: Cylinder.001
+    3300016: Cylinder.002
+    3300018: Cylinder.003
+    3300020: Cylinder.004
+    3300022: Cylinder.005
+    3300024: Cylinder.006
+    3300026: Cylinder.007
+    4300000: Cube.005
+    4300002: Cube.002
+    4300004: Cube.001
+    4300006: Cube
+    4300008: Cylinder.001
+    4300010: Cylinder.002
+    4300012: Cylinder.003
+    4300014: Cylinder.000
+    4300016: Cube.003
+    4300018: Cube.004
+    4300020: Cylinder.004
+    4300022: Cylinder.005
+    4300024: Cylinder.007
+    4300026: Cylinder.006
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +130,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +157,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
