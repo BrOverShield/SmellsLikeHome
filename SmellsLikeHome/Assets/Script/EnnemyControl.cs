@@ -22,7 +22,6 @@ public class EnnemyControl : MonoBehaviour
     void Start()
     {
         EnnemyNavMesh = this.GetComponent<NavMeshAgent>();
-
     }
 
     // Update is called once per frame

@@ -45,21 +45,21 @@ public class WindowInteraction : MonoBehaviour
         if (WindowOpen)
         {
             translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
-            if (translationTimer < 5f)
+            if (translationTimer < 8f)
             {
                 translationTimer += Time.deltaTime;
             }
             else
             {
-                if (translationTimer < 6.5f)
+                if (translationTimer < 9.5f)
                 {
                     transform.Translate(translationDoor);
                     translationTimer += Time.deltaTime;
-                    canClose = true;
                 }
                 else
                 {
                     transform.Translate(new Vector3(0, 0, 0));
+                    canClose = true;
                 }
 
             }
