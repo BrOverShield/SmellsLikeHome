@@ -11,9 +11,12 @@ public class Throw : MonoBehaviour
    private bool hasPlayer = false;
     bool beingCarried = false;
     private bool touched = false;
-    
-    
-    
+
+    AudioSource audioSource;
+
+    public AudioClip prendre;
+    public AudioClip lancer;
+
     public Material Floor;
     public Material mat2;
     
@@ -21,6 +24,7 @@ public class Throw : MonoBehaviour
     void Start()
     {
          GetComponent<Renderer>().material = Floor;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,10 +44,10 @@ public class Throw : MonoBehaviour
        
         
         if (hasPlayer && Input.GetMouseButtonDown(0))
-        {   
-            
-            
-                GetComponent<Rigidbody>().isKinematic = true;
+        {
+
+            //audioSource.PlayOneShot(prendre);
+            GetComponent<Rigidbody>().isKinematic = true;
             transform.parent = PlayerCam;
             beingCarried = true;
             GetComponent<Renderer>().material = mat2;
@@ -70,17 +74,19 @@ public class Throw : MonoBehaviour
             if(Input.GetMouseButtonUp(0))
             {
                  GetComponent<Rigidbody>().isKinematic = false;
-            transform.parent = null;
-            beingCarried = false;
-             GetComponent<Rigidbody>().AddForce(PlayerCam.forward * throwForce);
+                transform.parent = null;
+                beingCarried = false;
+                GetComponent<Rigidbody>().AddForce(PlayerCam.forward * throwForce);
                 GetComponent<Renderer>().material = Floor;
+                //audioSource.PlayOneShot(lancer);
             }
             else if (Input.GetMouseButtonDown(1))
             {
-            GetComponent<Rigidbody>().isKinematic = false;
-            transform.parent = null;
-            beingCarried = false;
+             GetComponent<Rigidbody>().isKinematic = false;
+                transform.parent = null;
+                beingCarried = false;
                 GetComponent<Renderer>().material = Floor;
+             //audioSource.PlayOneShot(lancer);
             }
         }
     }

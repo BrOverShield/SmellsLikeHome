@@ -43,8 +43,9 @@ public class EnnemyControl : MonoBehaviour
         {
             speedNeighbor = 0f;
             animEnemy.enabled=false;
-            GetComponent<Rigidbody>().isKinematic = false;
+            GetComponent<Rigidbody>().mass = 0.00001f;
             GetComponent<Rigidbody>().useGravity = true;
+
             if (TimerDelete < 5f)
             {
                 TimerDelete += Time.deltaTime;

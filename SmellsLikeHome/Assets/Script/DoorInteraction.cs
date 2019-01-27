@@ -13,13 +13,16 @@ public class DoorInteraction : MonoBehaviour
     public Transform player;
     public Transform PlayerCam;
 
+    AudioSource audioSource;
+    public AudioClip ouvrir;
+
     private bool hasPlayer = false;
     private bool touched = false;
     // Start is called before the first frame update
     void Start()
     {
         DoorOpen = false;
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,6 +42,7 @@ public class DoorInteraction : MonoBehaviour
         {
             DoorOpen = false;
             rotationDoor = new Vector3(0f, -90f * Time.deltaTime, 0f);
+            //audioSource.PlayOneShot(ouvrir);
         }
 
         if (DoorOpen && !canClose)
@@ -49,6 +53,7 @@ public class DoorInteraction : MonoBehaviour
             }
             else {
                 rotationDoor = new Vector3(0f, 90f * Time.deltaTime, 0f);
+                //audioSource.PlayOneShot(ouvrir);
             }
         }
         Door.transform.parent.Rotate(rotationDoor);
