@@ -9,6 +9,8 @@ TagManager:
   - Window
   - Object
   - Enemy
+  - top
+  - bottom
   layers:
   - Default
   - TransparentFX

@@ -5,9 +5,9 @@ using UnityEngine;
 public class DoorInteraction : MonoBehaviour
 {
     public bool DoorOpen;
-    private bool canClose;
-    public float rotationTimer;
+    public bool canClose;
     public Vector3 rotationDoor;
+    public Transform Door;
 
     public Transform player;
     public Transform PlayerCam;
@@ -18,8 +18,7 @@ public class DoorInteraction : MonoBehaviour
     void Start()
     {
         DoorOpen = false;
-        rotationTimer = 3f;
-        rotationDoor = new Vector3(0, 1f, 0);
+        
     }
 
     // Update is called once per frame
@@ -38,46 +37,14 @@ public class DoorInteraction : MonoBehaviour
         if (hasPlayer && Input.GetMouseButtonDown(0) && canClose)
         {
             DoorOpen = false;
-            rotationTimer = 1f;
-            canClose = false;
+            rotationDoor = new Vector3(0f, -90f * Time.deltaTime, 0f);
         }
-        if (DoorOpen)
-        {
-            if (rotationTimer < 8f)
-            {
-                rotationTimer += Time.deltaTime;
-            }
-            else
-            {
-                if (rotationTimer < 10f)
-                {
-                    transform.Rotate(rotationDoor);
-                    rotationTimer += Time.deltaTime;
-                }
-                else
-                {
-                    transform.Rotate(new Vector3(0, 0, 0));
-                    canClose = true;
-                }
-            }
-        }
-        else
-        {
-            if (rotationTimer < 3f)
-            {
-                transform.Rotate(-rotationDoor);
-                rotationTimer += Time.deltaTime;
-            }
-            else
-            {
-                transform.Rotate(new Vector3(0, 0, 0));
-            }
-        }
-    }
 
-    private IEnumerator DoorOpenDelay(float waitTime)
-    {
-        yield return new WaitForSeconds(waitTime);
-
+        if (DoorOpen && !canClose)
+        {
+            rotationDoor = new Vector3(0f, 90f * Time.deltaTime, 0f);
+        }
+        Door.transform.parent.Rotate(rotationDoor);
     }
 }
+
