@@ -8,6 +8,7 @@ public class WindowInteraction : MonoBehaviour
     public bool canClose;
     public Vector3 translationDoor;
     public Transform Window;
+    private float timerActivate = 1f;
 
     public Transform player;
     public Transform PlayerCam;
@@ -42,7 +43,15 @@ public class WindowInteraction : MonoBehaviour
 
         if (WindowOpen && !canClose)
         {
-            translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
+            if (timerActivate < 8f)
+            {
+                timerActivate += Time.deltaTime;
+            }
+            else
+            {
+                translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
+            }
+            
         }
         Window.transform.Translate(translationDoor);
     }

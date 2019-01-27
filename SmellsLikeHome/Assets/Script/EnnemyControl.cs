@@ -9,6 +9,8 @@ public class EnnemyControl : MonoBehaviour
     NavMeshAgent EnnemyNavMesh;
     public DoorInteraction doorScript;
     public WindowInteraction windowScript;
+    public GameObject objectAnimator;
+    private Animator animEnemy;
     public float speedNeighbor = 1f;
     private bool IsDeath = false;
     private float TimerDelete = 1f;
@@ -22,6 +24,7 @@ public class EnnemyControl : MonoBehaviour
     void Start()
     {
         EnnemyNavMesh = this.GetComponent<NavMeshAgent>();
+        animEnemy = objectAnimator.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -39,6 +42,9 @@ public class EnnemyControl : MonoBehaviour
         if (IsDeath)
         {
             speedNeighbor = 0f;
+            animEnemy.enabled=false;
+            GetComponent<Rigidbody>().isKinematic = false;
+            GetComponent<Rigidbody>().useGravity = true;
             if (TimerDelete < 5f)
             {
                 TimerDelete += Time.deltaTime;
@@ -46,6 +52,9 @@ public class EnnemyControl : MonoBehaviour
             else
             {
                 Destroy(gameObject);
+                if (EnnemyNavMesh.remainingDistance <= 4f) {
+                    animEnemy.SetBool("IsReady", true);
+                }
             }
         }
     }
@@ -64,7 +73,8 @@ public class EnnemyControl : MonoBehaviour
         {
             //Pie lose health
             Debug.Log("Miam!");
-            Destroy(this.gameObject);
+            animEnemy.SetBool("IsEating", true);
+            StartCoroutine(DieTimer(2f));
         }
         if (other.tag == "Object")
         {
@@ -83,5 +93,9 @@ public class EnnemyControl : MonoBehaviour
             windowScript = other.GetComponent<WindowInteraction>();
             windowScript.WindowOpen = true;
         }
+    }
+    private IEnumerator DieTimer(float deathDelay) {
+        yield return new WaitForSeconds(deathDelay);
+        Destroy(this.gameObject);
     }
 }

@@ -6,6 +6,7 @@ public class DoorInteraction : MonoBehaviour
 {
     public bool DoorOpen;
     public bool canClose;
+    private float timerActivate = 1f;
     public Vector3 rotationDoor;
     public Transform Door;
 
@@ -42,7 +43,13 @@ public class DoorInteraction : MonoBehaviour
 
         if (DoorOpen && !canClose)
         {
-            rotationDoor = new Vector3(0f, 90f * Time.deltaTime, 0f);
+            if (timerActivate < 8f)
+            {
+                timerActivate += Time.deltaTime;
+            }
+            else {
+                rotationDoor = new Vector3(0f, 90f * Time.deltaTime, 0f);
+            }
         }
         Door.transform.parent.Rotate(rotationDoor);
     }
