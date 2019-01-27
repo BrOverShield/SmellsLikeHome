@@ -27,6 +27,10 @@ Transform:
   m_LocalPosition: {x: -30.974667, y: -12.13, z: -29.914192}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1848251700423033794}
+  - {fileID: 1848251702128168798}
+  - {fileID: 1848251701538419938}
+  - {fileID: 1848251701647265840}
   - {fileID: 1848251700512950715}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,10 +62,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848251700423033790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.47959358, y: -3.8366807, z: 0.47211805}
-  m_LocalScale: {x: 0.046149906, y: 8.672276, z: 0.06885044}
+  m_LocalPosition: {x: 15.639667, y: 12.670592, z: 22.290192}
+  m_LocalScale: {x: 0.11447819, y: 1, z: 0.0933612}
   m_Children: []
-  m_Father: {fileID: 1848251700512950715}
+  m_Father: {fileID: 1848251700286997751}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1848251700423033795
@@ -133,7 +137,6 @@ GameObject:
   - component: {fileID: 1848251700512950715}
   - component: {fileID: 1848251700512950712}
   - component: {fileID: 1848251700512950713}
-  - component: {fileID: 1848251700512950714}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -151,13 +154,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.45, y: 13.113, z: 21.65}
   m_LocalScale: {x: 2.4805727, y: 0.11531, z: 1.356}
-  m_Children:
-  - {fileID: 1848251700423033794}
-  - {fileID: 1848251702128168798}
-  - {fileID: 1848251701538419938}
-  - {fileID: 1848251701647265840}
+  m_Children: []
   m_Father: {fileID: 1848251700286997751}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1848251700512950712
 MeshFilter:
@@ -204,19 +203,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1848251700512950714
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848251700512950708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1848251701538419934
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,10 +230,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848251701538419934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.47663748, y: -3.8366807, z: -0.46593463}
-  m_LocalScale: {x: 0.046149906, y: 8.672276, z: 0.06885044}
+  m_LocalPosition: {x: 13.267666, y: 12.670592, z: 21.018192}
+  m_LocalScale: {x: 0.11447819, y: 1, z: 0.0933612}
   m_Children: []
-  m_Father: {fileID: 1848251700512950715}
+  m_Father: {fileID: 1848251700286997751}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1848251701538419939
@@ -335,10 +321,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848251701647265836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.47663748, y: -3.8366807, z: 0.46105656}
-  m_LocalScale: {x: 0.046149906, y: 8.672276, z: 0.06885044}
+  m_LocalPosition: {x: 13.267666, y: 12.670592, z: 22.275192}
+  m_LocalScale: {x: 0.11447819, y: 1, z: 0.0933612}
   m_Children: []
-  m_Father: {fileID: 1848251700512950715}
+  m_Father: {fileID: 1848251700286997751}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1848251701647265841
@@ -426,10 +412,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848251702128168794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.47475594, y: -3.8366807, z: -0.47625908}
-  m_LocalScale: {x: 0.046149906, y: 8.672276, z: 0.06885044}
+  m_LocalPosition: {x: 15.627666, y: 12.670592, z: 21.004192}
+  m_LocalScale: {x: 0.11447819, y: 1, z: 0.0933612}
   m_Children: []
-  m_Father: {fileID: 1848251700512950715}
+  m_Father: {fileID: 1848251700286997751}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1848251702128168799
