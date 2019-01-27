@@ -19,7 +19,7 @@ public class WindowInteraction : MonoBehaviour
     {
         WindowOpen = false;
         canClose = false;
-        translationTimer = 2f;
+        translationTimer = 3.5f;
     }
 
     // Update is called once per frame
@@ -45,28 +45,28 @@ public class WindowInteraction : MonoBehaviour
         if (WindowOpen)
         {
             translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
-            if (translationTimer < 5f)
+            if (translationTimer < 8f)
             {
                 translationTimer += Time.deltaTime;
             }
             else
             {
-                if (translationTimer < 6f)
+                if (translationTimer < 9.5f)
                 {
                     transform.Translate(translationDoor);
                     translationTimer += Time.deltaTime;
-                    canClose = true;
                 }
                 else
                 {
                     transform.Translate(new Vector3(0, 0, 0));
+                    canClose = true;
                 }
 
             }
         }
         else {
             translationDoor = new Vector3(0, -1f * Time.deltaTime, 0);
-            if (translationTimer < 2f)
+            if (translationTimer < 3.5f)
             {
                 transform.Translate(translationDoor);
                 translationTimer += Time.deltaTime;
