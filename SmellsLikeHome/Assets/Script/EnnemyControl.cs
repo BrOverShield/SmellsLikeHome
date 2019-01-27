@@ -25,7 +25,6 @@ public class EnnemyControl : MonoBehaviour
     {
         EnnemyNavMesh = this.GetComponent<NavMeshAgent>();
         animEnemy = objectAnimator.GetComponent<Animator>();
-        transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
     }
 
     // Update is called once per frame
