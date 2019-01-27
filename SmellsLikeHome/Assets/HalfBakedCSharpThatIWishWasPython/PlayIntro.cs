@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuScript : MonoBehaviour
+public class PlayIntro : MonoBehaviour
 {
+
     public void Start()
     {
         // Will attach a VideoPlayer to the main camera.
-        GameObject camera = GameObject.Find("OpeningCamera");
+        GameObject camera = GameObject.Find("Main Camera");
 
         // VideoPlayer automatically targets the camera backplane when it is added
         // to a camera object, no need to change videoPlayer.targetCamera.
@@ -32,34 +33,6 @@ public class MenuScript : MonoBehaviour
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
         // This will create problems if we want to do anything after the credits end
-        GameObject camera = GameObject.Find("OpeningCamera");
-        Destroy(camera);
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
-
-    public void ChangeScene(string SceneName)
-    {
-        // first level
-        SceneManager.LoadScene("MaisonPlayerV1", LoadSceneMode.Single);
-      
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
