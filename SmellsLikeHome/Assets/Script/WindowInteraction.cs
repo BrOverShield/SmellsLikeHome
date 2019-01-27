@@ -19,7 +19,7 @@ public class WindowInteraction : MonoBehaviour
     {
         WindowOpen = false;
         canClose = false;
-        translationTimer = 3f;
+        translationTimer = 3.5f;
     }
 
     // Update is called once per frame
@@ -51,7 +51,7 @@ public class WindowInteraction : MonoBehaviour
             }
             else
             {
-                if (translationTimer < 6f)
+                if (translationTimer < 6.5f)
                 {
                     transform.Translate(translationDoor);
                     translationTimer += Time.deltaTime;
@@ -66,7 +66,7 @@ public class WindowInteraction : MonoBehaviour
         }
         else {
             translationDoor = new Vector3(0, -1f * Time.deltaTime, 0);
-            if (translationTimer < 3f)
+            if (translationTimer < 3.5f)
             {
                 transform.Translate(translationDoor);
                 translationTimer += Time.deltaTime;
