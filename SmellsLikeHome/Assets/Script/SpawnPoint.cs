@@ -12,7 +12,7 @@ public class SpawnPoint : MonoBehaviour
     void Start()
     {
         //InvokeRepeating("Spawn", 5f, repeatTime);
-        timeSpawn = Random.Range(3f, 5f);
+        timeSpawn = Random.Range(15f, 75f);
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class SpawnPoint : MonoBehaviour
         }
         else {
             delayTime = 1f;
-            timeSpawn = Random.Range(5f,20f);
+            timeSpawn = Random.Range(15f,75f);
             Instantiate(prefab, transform.position, Quaternion.identity);
         }
 

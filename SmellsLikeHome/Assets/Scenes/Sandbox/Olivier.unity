@@ -428,6 +428,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &30524650
@@ -755,6 +757,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &80870240
@@ -1899,6 +1903,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &145158276
@@ -2251,6 +2257,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &178109773
@@ -2316,6 +2324,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &190219346
@@ -2381,6 +2391,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &190376291
@@ -2446,6 +2458,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &213041038
@@ -2623,6 +2637,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &231938341
@@ -2688,6 +2704,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &242242412
@@ -3077,6 +3095,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &277010669
@@ -3161,6 +3181,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &292617181
@@ -3398,6 +3420,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &294764624
@@ -3755,6 +3779,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &323213657
@@ -4198,6 +4224,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &362568509
@@ -4340,6 +4368,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &395418250
@@ -4405,6 +4435,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &397785346
@@ -4489,6 +4521,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &417533922
@@ -4749,6 +4783,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &443934769
@@ -4875,6 +4911,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!1 &508657643 stripped
@@ -4999,6 +5037,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &522714736
@@ -5355,6 +5395,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &560351683
@@ -5639,6 +5681,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &617642582
@@ -5704,6 +5748,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &618172024
@@ -5931,6 +5977,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &627016993
@@ -6270,6 +6318,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &639288967
@@ -6365,6 +6415,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &655094479
@@ -6449,6 +6501,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &669540997
@@ -6995,6 +7049,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &743918619
@@ -7060,6 +7116,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &745647453
@@ -7125,6 +7183,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &760303884
@@ -7196,6 +7256,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &769029937
@@ -7342,6 +7404,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &793363442
@@ -7407,6 +7471,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &799303658
@@ -7711,6 +7777,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &829017453
@@ -8178,6 +8246,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &876942651
@@ -8446,6 +8516,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &901742499
@@ -8511,6 +8583,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &904360199
@@ -8754,6 +8828,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &932070222
@@ -8900,6 +8976,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &962533011
@@ -9438,6 +9516,300 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1029634103}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1029634106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1029634103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1029634107
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029634106}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 66614af94e7709b44ab08a0fb719fad9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1029634108
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029634106}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1029634109
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029634106}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1047241245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6153983018c00a2408c9d29e91e64914,
@@ -9497,6 +9869,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1052836437
@@ -9637,6 +10011,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1063010612
@@ -9805,6 +10181,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1092492386
@@ -10032,6 +10410,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1105828218
@@ -10697,6 +11077,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1236699094
@@ -10804,6 +11186,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!1 &1239428617 stripped
@@ -11203,6 +11587,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1308739487
@@ -11430,6 +11816,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1332572520
@@ -11495,6 +11883,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1334131633
@@ -11830,6 +12220,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1353168030
@@ -11914,6 +12306,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1360127705
@@ -12085,6 +12479,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1387551605
@@ -12192,6 +12588,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!1 &1407400181 stripped
@@ -12215,6 +12613,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1407400184
@@ -12386,6 +12786,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1409518477
@@ -12519,6 +12921,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1414527076
@@ -12927,6 +13331,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1438410412
@@ -13021,6 +13427,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1444817878
@@ -13219,6 +13627,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1461854466
@@ -13583,6 +13993,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1491506249
@@ -13725,6 +14137,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1503582303
@@ -13990,6 +14404,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1522558220
@@ -14124,6 +14540,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1532709687
@@ -14295,6 +14713,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1538089371
@@ -14376,6 +14796,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!64 &1544338970
@@ -14847,6 +15269,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1596762853
@@ -14912,6 +15336,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1597235865
@@ -15139,6 +15565,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1644339940
@@ -15492,6 +15920,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1687659650
@@ -15625,6 +16055,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1736114984
@@ -15990,6 +16422,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1810366582
@@ -16328,6 +16762,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1892125789
@@ -16493,6 +16929,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1916949406
@@ -16658,6 +17096,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &1930745161
@@ -16885,6 +17325,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2500
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &1938603299
@@ -17415,6 +17857,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &2010758487
@@ -17589,6 +18033,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!54 &2034018248
@@ -17673,6 +18119,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &2050454143
@@ -17758,6 +18206,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &2090064414
@@ -18004,6 +18454,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &2111921192
@@ -18150,6 +18602,8 @@ MonoBehaviour:
   player: {fileID: 1029634104}
   PlayerCam: {fileID: 1029634105}
   throwForce: 2000
+  prendre: {fileID: 0}
+  lancer: {fileID: 0}
   Floor: {fileID: 0}
   mat2: {fileID: 0}
 --- !u!65 &2132655209
