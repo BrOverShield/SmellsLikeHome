@@ -24,6 +24,10 @@ ModelImporter:
     2100000: unnamed
     4300000: Cube
     7400000: Default Take
+    7400002: Walk
+    7400004: manger
+    7400006: openwindow
+    7400008: bouffer
     9500000: //RootNode
     13700000: Cube
     2186277476908879412: ImportLogs

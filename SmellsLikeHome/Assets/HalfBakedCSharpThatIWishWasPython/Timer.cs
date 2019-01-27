@@ -5,7 +5,7 @@ using System;
 public class Timer : MonoBehaviour
 {
     private Text text;
-    private float timeleft = 10.0f;
+    private float timeleft = 300.0f;
 
     // shamelessly stolen from some forum, don't worry about it
     void Awake()

@@ -8,12 +8,17 @@ public class PieHealth : MonoBehaviour
 
     public int starting_health = 8;
     public int current_health = 8;
+    public GameObject pie_health;
+    public GameObject pie_health1;
+    public GameObject pie_health2;
+    public GameObject pie_health3;
+    public GameObject pie_health4;
+    public GameObject pie_health5;
+    public GameObject pie_health6;
+    public GameObject pie_health7;
 
     void Start()
     {
-        Font arial;
-        arial = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
-
         GameObject canvasGO = GameObject.Find("Canvas");
 
         Vector3 local_position = new Vector3(500, 150, 0);
@@ -75,27 +80,77 @@ public class PieHealth : MonoBehaviour
         pieTransform7.localPosition = local_position;
         pieTransform7.localScale += new Vector3(9, 9, 0);
 
-        GameObject tarte8 = Resources.Load("PieUI/tarte8") as GameObject;
-        GameObject pie_health8 = Instantiate(tarte8, new Vector3(0, 0, 0), Quaternion.identity);
-        pie_health8.transform.parent = canvasGO.transform;
-        Transform pieTransform8 = pie_health8.GetComponent<Transform>();
-        pieTransform8.localPosition = local_position;
-        pieTransform8.localScale += new Vector3(9, 9, 0);
-
     }
 
     // Update is called once per frame
     void Update()
     {
         // TODO: Co-ordinate with enemy AI script and decide how the script will know when the pie is being eaten
+
+        if (current_health == 0)
+        {
+            //EndScreen()
+        }
+
+        // testing damage
+        //if (Input.GetKey("space"))
+        //{
+        //    TakeDamage();
+        //    print(current_health);
+        //}
     }
 
     public void TakeDamage()
     {
-        current_health--;
         if (current_health <= 0)
         {
-            print("Pie has been eaten");    // TODO: What will happen when pie is eaten fully?
+            print("Pie has already been eaten");    // TODO: What will happen when pie is eaten fully?
+            return;
+        } else
+        {
+            current_health--;
         }
+
+        GameObject target3 = GameObject.Find("Main Camera/Canvas/Tarte3(Clone)");
+        GameObject target4 = GameObject.Find("Main Camera/Canvas/Tarte4(Clone)");
+        GameObject target5 = GameObject.Find("Main Camera/Canvas/tarte5(Clone)");
+        GameObject target6 = GameObject.Find("Main Camera/Canvas/tarte6(Clone)");
+        GameObject target7 = GameObject.Find("Main Camera/Canvas/tarte7(Clone)");
+        GameObject target2 = GameObject.Find("Main Camera/Canvas/tarte2(Clone)");
+        GameObject target1 = GameObject.Find("Main Camera/Canvas/Tarte1(Clone)");
+        GameObject target = GameObject.Find("Main Camera/Canvas/tarte(Clone)");
+
+        if (current_health <= 7 && target3)
+        {
+            Destroy(target3);
+        }
+        else if (current_health <= 6 && target4)
+        {
+            Destroy(target4);
+        }
+        else if (current_health <= 5 && target5)
+        {
+            Destroy(target5);
+        }
+        else if (current_health <= 4 && target6)
+        {
+            Destroy(target6);
+        }
+        else if (current_health <= 3 && target7)
+        {
+            Destroy(target7);
+        }
+        else if (current_health <= 2 && target2)
+        {
+            Destroy(target2);
+        }
+        else if (current_health <= 1 && target1)
+        {
+            Destroy(target1);
+        }
+        else if (current_health <= 0 && target)
+        {
+            Destroy(target);
+        } 
     }
 }
