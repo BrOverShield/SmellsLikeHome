@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Window
   - Object
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - ZoneLimite
+  - Enemy
   - 
   - 
   - 

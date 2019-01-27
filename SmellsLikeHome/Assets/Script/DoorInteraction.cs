@@ -43,21 +43,21 @@ public class DoorInteraction : MonoBehaviour
         }
         if (DoorOpen)
         {
-            if (rotationTimer < 5f)
+            if (rotationTimer < 8f)
             {
                 rotationTimer += Time.deltaTime;
             }
             else
             {
-                if (rotationTimer < 7f)
+                if (rotationTimer < 10f)
                 {
                     transform.Rotate(rotationDoor);
                     rotationTimer += Time.deltaTime;
-                    canClose = true;
                 }
                 else
                 {
                     transform.Rotate(new Vector3(0, 0, 0));
+                    canClose = true;
                 }
             }
         }
