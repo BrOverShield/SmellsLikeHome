@@ -13,6 +13,9 @@ public class WindowInteraction : MonoBehaviour
     public Transform player;
     public Transform PlayerCam;
 
+    AudioSource audioSource;
+    public AudioClip ouvrir;
+
     private bool hasPlayer = false;
     private bool touched = false;
     // Start is called before the first frame update
@@ -20,6 +23,7 @@ public class WindowInteraction : MonoBehaviour
     {
         WindowOpen = false;
         canClose = false;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,6 +43,7 @@ public class WindowInteraction : MonoBehaviour
         {
             WindowOpen = false;
             translationDoor = new Vector3(0, -1f * Time.deltaTime, 0);
+            //audioSource.PlayOneShot(ouvrir);
         }
 
         if (WindowOpen && !canClose)
@@ -50,8 +55,9 @@ public class WindowInteraction : MonoBehaviour
             else
             {
                 translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
+                //audioSource.PlayOneShot(ouvrir);
             }
-            
+
         }
         Window.transform.Translate(translationDoor);
     }
