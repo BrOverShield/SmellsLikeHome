@@ -17,10 +17,13 @@ public class PieHealth : MonoBehaviour
     public GameObject pie_health6;
     public GameObject pie_health7;
 
+    public AudioClip mangerPie;
+    AudioSource audioSource;
+
     void Start()
     {
         GameObject canvasGO = GameObject.Find("Canvas");
-
+        audioSource = GetComponent<AudioSource>();
         Vector3 local_position = new Vector3(500, 150, 0);
 
         // initialize pie health icon with 8 slices
@@ -105,6 +108,7 @@ public class PieHealth : MonoBehaviour
         if (current_health <= 0)
         {
             print("Pie has already been eaten");    // TODO: What will happen when pie is eaten fully?
+            // audioSource.PlayOneShot(mangerPie);
             return;
         } else
         {
