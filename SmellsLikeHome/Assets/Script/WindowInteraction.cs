@@ -5,9 +5,9 @@ using UnityEngine;
 public class WindowInteraction : MonoBehaviour
 {
     public bool WindowOpen;
-    private bool canClose;
-    private float translationTimer;
-    private Vector3 translationDoor;
+    public bool canClose;
+    public Vector3 translationDoor;
+    public Transform Window;
 
     public Transform player;
     public Transform PlayerCam;
@@ -19,7 +19,6 @@ public class WindowInteraction : MonoBehaviour
     {
         WindowOpen = false;
         canClose = false;
-        translationTimer = 3.5f;
     }
 
     // Update is called once per frame
@@ -38,43 +37,15 @@ public class WindowInteraction : MonoBehaviour
         if (hasPlayer && Input.GetMouseButtonDown(0) && canClose)
         {
             WindowOpen = false;
-            translationTimer = 1f;
-            canClose = false;
+            translationDoor = new Vector3(0, -1f * Time.deltaTime, 0);
         }
 
-        if (WindowOpen)
+        if (WindowOpen && !canClose)
         {
             translationDoor = new Vector3(0, 1f * Time.deltaTime, 0);
-            if (translationTimer < 8f)
-            {
-                translationTimer += Time.deltaTime;
-            }
-            else
-            {
-                if (translationTimer < 9.5f)
-                {
-                    transform.Translate(translationDoor);
-                    translationTimer += Time.deltaTime;
-                }
-                else
-                {
-                    transform.Translate(new Vector3(0, 0, 0));
-                    canClose = true;
-                }
-
-            }
         }
-        else {
-            translationDoor = new Vector3(0, -1f * Time.deltaTime, 0);
-            if (translationTimer < 3.5f)
-            {
-                transform.Translate(translationDoor);
-                translationTimer += Time.deltaTime;
-            }
-            else
-            {
-                transform.Translate(new Vector3(0, 0, 0));
-            }
-        }
+        Window.transform.Translate(translationDoor);
     }
+
+    
 }

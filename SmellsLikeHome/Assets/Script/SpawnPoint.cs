@@ -12,7 +12,7 @@ public class SpawnPoint : MonoBehaviour
     void Start()
     {
         //InvokeRepeating("Spawn", 5f, repeatTime);
-        timeSpawn = Random.Range(5f, 35f);
+        timeSpawn = Random.Range(10f, 75f);
     }
 
     // Update is called once per frame

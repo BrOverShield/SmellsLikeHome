@@ -9,7 +9,7 @@ public class EnnemyControl : MonoBehaviour
     NavMeshAgent EnnemyNavMesh;
     public DoorInteraction doorScript;
     public WindowInteraction windowScript;
-    public float speedNeighbor = 2f;
+    public float speedNeighbor = 1f;
     private bool IsDeath = false;
     private float TimerDelete = 1f;
 
