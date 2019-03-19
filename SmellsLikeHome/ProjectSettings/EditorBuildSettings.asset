@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 26c89160701dbdb4b909510439eadd1c
   - enabled: 1
-    path: Assets/Scenes/Sandbox/MaisonPlayerV1.unity
-    guid: 686003587e90cc84e8d03f8b22a372ea
+    path: Assets/Scenes/Sandbox/Olivier.unity
+    guid: ff8f1508b8c486f4d96230639a34912e
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 32bc224626463d9439951bcd21f85ec0
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 8c7b43c09ac5b8e4488611c22585fcfd
   m_configObjects: {}

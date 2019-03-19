@@ -1,7 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 public class EnnemyControl : MonoBehaviour
 {
     [SerializeField]
@@ -14,7 +15,7 @@ public class EnnemyControl : MonoBehaviour
     public float speedNeighbor = 1f;
     private bool IsDeath = false;
     private float TimerDelete = 1f;
-
+    private float piePiece=6;
     private void Awake()
     {
         PiePosition = GameObject.FindGameObjectWithTag("Pie").transform;
@@ -58,6 +59,9 @@ public class EnnemyControl : MonoBehaviour
                 }
             }
         }
+        if(piePiece==0){
+            SceneManager.LoadScene(2);
+        }
     }
     private void SetDestination()
     {
@@ -75,7 +79,9 @@ public class EnnemyControl : MonoBehaviour
             //Pie lose health
             Debug.Log("Miam!");
             animEnemy.SetBool("IsEating", true);
+            --piePiece;
             StartCoroutine(DieTimer(2f));
+            
         }
         if (other.tag == "Object")
         {

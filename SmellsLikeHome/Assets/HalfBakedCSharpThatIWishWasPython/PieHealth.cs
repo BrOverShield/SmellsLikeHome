@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -115,14 +115,14 @@ public class PieHealth : MonoBehaviour
             current_health--;
         }
 
-        GameObject target3 = GameObject.Find("Main Camera/Canvas/Tarte3(Clone)");
-        GameObject target4 = GameObject.Find("Main Camera/Canvas/Tarte4(Clone)");
-        GameObject target5 = GameObject.Find("Main Camera/Canvas/tarte5(Clone)");
-        GameObject target6 = GameObject.Find("Main Camera/Canvas/tarte6(Clone)");
-        GameObject target7 = GameObject.Find("Main Camera/Canvas/tarte7(Clone)");
-        GameObject target2 = GameObject.Find("Main Camera/Canvas/tarte2(Clone)");
-        GameObject target1 = GameObject.Find("Main Camera/Canvas/Tarte1(Clone)");
-        GameObject target = GameObject.Find("Main Camera/Canvas/tarte(Clone)");
+        GameObject target3 = GameObject.Find("Canvas/Tarte3(Clone)");
+        GameObject target4 = GameObject.Find("Canvas/Tarte4(Clone)");
+        GameObject target5 = GameObject.Find("Canvas/tarte5(Clone)");
+        GameObject target6 = GameObject.Find("Canvas/tarte6(Clone)");
+        GameObject target7 = GameObject.Find("Canvas/tarte7(Clone)");
+        GameObject target2 = GameObject.Find("Canvas/tarte2(Clone)");
+        GameObject target1 = GameObject.Find("Canvas/Tarte1(Clone)");
+        GameObject target = GameObject.Find("Canvas/tarte(Clone)");
 
         if (current_health <= 7 && target3)
         {

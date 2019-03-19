@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System;
-
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     private Text text;
@@ -52,6 +52,7 @@ public class Timer : MonoBehaviour
             print("Time's Up"); // TODO: run function to do whatever we want to happen when time is up, and yes, I know this will spam the console
             GameObject camera = GameObject.Find("Main Camera");
             Credits play_credits = camera.AddComponent<Credits>();
+            SceneManager.LoadScene("Victory", LoadSceneMode.Single);
         }
         else
         {

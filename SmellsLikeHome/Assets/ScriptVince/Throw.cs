@@ -12,10 +12,12 @@ public class Throw : MonoBehaviour
     bool beingCarried = false;
     private bool touched = false;
 
-    AudioSource audioSource;
+    //AudioSource audioSource;
 
-    public AudioClip prendre;
-    public AudioClip lancer;
+    //public AudioClip prendre;
+   // public AudioClip lancer;
+    
+    //public GameObject character;
 
     public Material Floor;
     public Material mat2;
@@ -24,7 +26,7 @@ public class Throw : MonoBehaviour
     void Start()
     {
          GetComponent<Renderer>().material = Floor;
-        audioSource = GetComponent<AudioSource>();
+       // audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -46,7 +48,7 @@ public class Throw : MonoBehaviour
         if (hasPlayer && Input.GetMouseButtonDown(0))
         {
 
-            //audioSource.PlayOneShot(prendre);
+           // character.audioSource.PlayOneShot(prendre);
             GetComponent<Rigidbody>().isKinematic = true;
             transform.parent = PlayerCam;
             beingCarried = true;
@@ -78,7 +80,7 @@ public class Throw : MonoBehaviour
                 beingCarried = false;
                 GetComponent<Rigidbody>().AddForce(PlayerCam.forward * throwForce);
                 GetComponent<Renderer>().material = Floor;
-                //audioSource.PlayOneShot(lancer);
+                //character.audioSource.PlayOneShot(lancer);
             }
             else if (Input.GetMouseButtonDown(1))
             {
